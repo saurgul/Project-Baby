@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sg.aa1.MainActivity"
+    android:background="#CACFD2"
+    android:onClick="FunLoginPage">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+
+        android:layout_alignLeft="@+id/AppName"
+        android:layout_alignStart="@+id/AppName"
+        android:layout_alignRight="@+id/AppName"
+        android:layout_alignEnd="@+id/AppName" />
+    <TextView
+        android:id="@+id/AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_centerHorizontal="true"
+        android:text="AA1"
+        android:textSize="50dp"
+        android:textColor="#006699"
+        />
+    <!-- <Button
+        android:id="@+id/ButLoginPage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AppName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="LOGIN"
+        android:onClick="FunLoginPage"
+        />
+    <Button
+        android:id="@+id/ButRegisterPage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ButLoginPage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:onClick="FunRegisterPage"
+        />  -->
+</RelativeLayout>
